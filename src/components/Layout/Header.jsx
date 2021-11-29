@@ -9,7 +9,7 @@ import classes from './Header.module.css';
 const Header = props => {
     return <React.Fragment>
         <header className={classes.header}>
-            <h1>Gill Dhaba</h1>
+            <h1>ReactMeals</h1>
             <HeaderCartButton onClick={props.onShowCart}>Cart</HeaderCartButton>
         </header>
         <div className={classes['main-image']}>
